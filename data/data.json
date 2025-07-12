@@ -1,0 +1,2104 @@
+{
+  "patients": {
+    "LCX001": {
+      "id": "LCX001",
+      "demographics": {
+        "name": "Angela Griffin",
+        "age": 46,
+        "gender": "Male",
+        "bloodType": "AB+",
+        "height": "167 cm",
+        "weight": "69 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Reading",
+        "activityLevel": "Moderately Active",
+        "sports": "Running",
+        "physicalRoutine": "Walks 5km daily",
+        "workStyle": "Desk job"
+      },
+      "education": "High School",
+      "maritalStatus": "Married",
+      "smokingAlcohol": {
+        "smoking": "Non-smoker",
+        "alcohol": "Drinks socially"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Sulfa drugs"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "99 U/L",
+            "AST": "94 U/L",
+            "Bilirubin": "1.7 mg/dL",
+            "AFP": "479 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "CT",
+          "finding": "Liver lesion",
+          "usefulData": true
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Radiofrequency ablation every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.6 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX002": {
+      "id": "LCX002",
+      "demographics": {
+        "name": "Eric Cross",
+        "age": 45,
+        "gender": "Female",
+        "bloodType": "B+",
+        "height": "182 cm",
+        "weight": "82 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Cycling",
+        "activityLevel": "Active",
+        "sports": "Gymnastics",
+        "physicalRoutine": "Walks 5km daily",
+        "workStyle": "Manual labour"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Widowed",
+      "smokingAlcohol": {
+        "smoking": "Smoker",
+        "alcohol": "Drinks socially"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["None"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Gallbladder removal",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "89 U/L",
+            "AST": "67 U/L",
+            "Bilirubin": "2.4 mg/dL",
+            "AFP": "443 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "X-ray Chest",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for TACE every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.6 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX003": {
+      "id": "LCX003",
+      "demographics": {
+        "name": "Hector Cook",
+        "age": 80,
+        "gender": "Male",
+        "bloodType": "AB+",
+        "height": "186 cm",
+        "weight": "95 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Skiing",
+        "activityLevel": "Active",
+        "sports": "None",
+        "physicalRoutine": "Mostly sedentary",
+        "workStyle": "Shift work"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Single",
+      "smokingAlcohol": {
+        "smoking": "Smoker",
+        "alcohol": "Frequent drinker"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Penicillin"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "95 U/L",
+            "AST": "113 U/L",
+            "Bilirubin": "1.6 mg/dL",
+            "AFP": "439 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "CT",
+          "finding": "Liver lesion",
+          "usefulData": true
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Immunotherapy every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 0.9 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX004": {
+      "id": "LCX004",
+      "demographics": {
+        "name": "Ashley Petty",
+        "age": 58,
+        "gender": "Female",
+        "bloodType": "AB+",
+        "height": "182 cm",
+        "weight": "59 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Skiing",
+        "activityLevel": "Moderately Active",
+        "sports": "Amateur Football",
+        "physicalRoutine": "Goes to gym 3x/week",
+        "workStyle": "Manual labour"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Divorced",
+      "smokingAlcohol": {
+        "smoking": "Non-smoker",
+        "alcohol": "Does not drink"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["None"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "80 U/L",
+            "AST": "77 U/L",
+            "Bilirubin": "1.3 mg/dL",
+            "AFP": "540 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "MRI Brain",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for TACE every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.7 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX005": {
+      "id": "LCX005",
+      "demographics": {
+        "name": "Bryan Meyers",
+        "age": 58,
+        "gender": "Female",
+        "bloodType": "O-",
+        "height": "172 cm",
+        "weight": "84 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Reading",
+        "activityLevel": "Active",
+        "sports": "Running",
+        "physicalRoutine": "Gardens every morning",
+        "workStyle": "Manual labour"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Widowed",
+      "smokingAlcohol": {
+        "smoking": "Former smoker",
+        "alcohol": "Does not drink"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["None"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "58 U/L",
+            "AST": "115 U/L",
+            "Bilirubin": "1.3 mg/dL",
+            "AFP": "571 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "MRI Brain",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Immunotherapy every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 0.6 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX006": {
+      "id": "LCX006",
+      "demographics": {
+        "name": "Nicholas Rogers",
+        "age": 72,
+        "gender": "Male",
+        "bloodType": "A-",
+        "height": "172 cm",
+        "weight": "79 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Skiing",
+        "activityLevel": "Active",
+        "sports": "Running",
+        "physicalRoutine": "Mostly sedentary",
+        "workStyle": "Shift work"
+      },
+      "education": "Master's",
+      "maritalStatus": "Married",
+      "smokingAlcohol": {
+        "smoking": "Smoker",
+        "alcohol": "Frequent drinker"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["None"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "55 U/L",
+            "AST": "106 U/L",
+            "Bilirubin": "2.3 mg/dL",
+            "AFP": "384 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "X-ray Chest",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Immunotherapy every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 0.7 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX007": {
+      "id": "LCX007",
+      "demographics": {
+        "name": "Mrs. Sarah Hancock",
+        "age": 77,
+        "gender": "Male",
+        "bloodType": "A-",
+        "height": "187 cm",
+        "weight": "95 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Cycling",
+        "activityLevel": "Moderately Active",
+        "sports": "Amateur Football",
+        "physicalRoutine": "Mostly sedentary",
+        "workStyle": "Shift work"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Married",
+      "smokingAlcohol": {
+        "smoking": "Non-smoker",
+        "alcohol": "Drinks socially"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Aspirin"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "108 U/L",
+            "AST": "111 U/L",
+            "Bilirubin": "1.6 mg/dL",
+            "AFP": "279 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "CT",
+          "finding": "Liver lesion",
+          "usefulData": true
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Surgical resection every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.8 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX008": {
+      "id": "LCX008",
+      "demographics": {
+        "name": "Sharon Fowler",
+        "age": 50,
+        "gender": "Male",
+        "bloodType": "A-",
+        "height": "183 cm",
+        "weight": "86 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Gardening",
+        "activityLevel": "Moderately Active",
+        "sports": "Swimming",
+        "physicalRoutine": "Gardens every morning",
+        "workStyle": "Manual labour"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Divorced",
+      "smokingAlcohol": {
+        "smoking": "Former smoker",
+        "alcohol": "Drinks socially"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Sulfa drugs"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Hernia repair",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "97 U/L",
+            "AST": "101 U/L",
+            "Bilirubin": "1.6 mg/dL",
+            "AFP": "514 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "MRI Brain",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Surgical resection every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.1 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX009": {
+      "id": "LCX009",
+      "demographics": {
+        "name": "Lee Shaw",
+        "age": 52,
+        "gender": "Female",
+        "bloodType": "B-",
+        "height": "167 cm",
+        "weight": "59 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Cycling",
+        "activityLevel": "Sedentary",
+        "sports": "Running",
+        "physicalRoutine": "Walks 5km daily",
+        "workStyle": "Shift work"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Married",
+      "smokingAlcohol": {
+        "smoking": "Smoker",
+        "alcohol": "Drinks socially"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Sulfa drugs"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "70 U/L",
+            "AST": "77 U/L",
+            "Bilirubin": "2.0 mg/dL",
+            "AFP": "359 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "CT",
+          "finding": "Liver lesion",
+          "usefulData": true
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Surgical resection every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 0.6 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX010": {
+      "id": "LCX010",
+      "demographics": {
+        "name": "Glenn Schaefer",
+        "age": 75,
+        "gender": "Male",
+        "bloodType": "B-",
+        "height": "185 cm",
+        "weight": "85 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Painting",
+        "activityLevel": "Sedentary",
+        "sports": "Swimming",
+        "physicalRoutine": "Gardens every morning",
+        "workStyle": "Desk job"
+      },
+      "education": "High School",
+      "maritalStatus": "Widowed",
+      "smokingAlcohol": {
+        "smoking": "Non-smoker",
+        "alcohol": "Does not drink"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Penicillin"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Hernia repair",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "76 U/L",
+            "AST": "111 U/L",
+            "Bilirubin": "2.2 mg/dL",
+            "AFP": "377 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "CT",
+          "finding": "Liver lesion",
+          "usefulData": true
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for TACE every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.1 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX011": {
+      "id": "LCX011",
+      "demographics": {
+        "name": "Linda Mccarthy",
+        "age": 57,
+        "gender": "Male",
+        "bloodType": "O-",
+        "height": "164 cm",
+        "weight": "82 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Reading",
+        "activityLevel": "Active",
+        "sports": "None",
+        "physicalRoutine": "Walks 5km daily",
+        "workStyle": "Remote"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Married",
+      "smokingAlcohol": {
+        "smoking": "Non-smoker",
+        "alcohol": "Frequent drinker"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Penicillin"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "85 U/L",
+            "AST": "73 U/L",
+            "Bilirubin": "2.2 mg/dL",
+            "AFP": "280 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "MRI Brain",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Radiofrequency ablation every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.1 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX012": {
+      "id": "LCX012",
+      "demographics": {
+        "name": "Jennifer Morse MD",
+        "age": 69,
+        "gender": "Male",
+        "bloodType": "A+",
+        "height": "172 cm",
+        "weight": "71 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Painting",
+        "activityLevel": "Active",
+        "sports": "Amateur Football",
+        "physicalRoutine": "Walks 5km daily",
+        "workStyle": "Remote"
+      },
+      "education": "PhD",
+      "maritalStatus": "Single",
+      "smokingAlcohol": {
+        "smoking": "Smoker",
+        "alcohol": "Does not drink"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Penicillin"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Hernia repair",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "85 U/L",
+            "AST": "92 U/L",
+            "Bilirubin": "2.3 mg/dL",
+            "AFP": "521 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "X-ray Chest",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for TACE every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 0.6 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX013": {
+      "id": "LCX013",
+      "demographics": {
+        "name": "Karen Forbes",
+        "age": 48,
+        "gender": "Male",
+        "bloodType": "A-",
+        "height": "187 cm",
+        "weight": "66 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Gardening",
+        "activityLevel": "Moderately Active",
+        "sports": "Swimming",
+        "physicalRoutine": "Walks 5km daily",
+        "workStyle": "Desk job"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Single",
+      "smokingAlcohol": {
+        "smoking": "Smoker",
+        "alcohol": "Frequent drinker"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Penicillin"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Gallbladder removal",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "100 U/L",
+            "AST": "80 U/L",
+            "Bilirubin": "1.5 mg/dL",
+            "AFP": "452 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "X-ray Chest",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Surgical resection every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 0.8 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX014": {
+      "id": "LCX014",
+      "demographics": {
+        "name": "Duane Lee",
+        "age": 64,
+        "gender": "Male",
+        "bloodType": "O-",
+        "height": "170 cm",
+        "weight": "59 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Gardening",
+        "activityLevel": "Active",
+        "sports": "None",
+        "physicalRoutine": "Goes to gym 3x/week",
+        "workStyle": "Shift work"
+      },
+      "education": "High School",
+      "maritalStatus": "Divorced",
+      "smokingAlcohol": {
+        "smoking": "Former smoker",
+        "alcohol": "Drinks socially"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["None"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "83 U/L",
+            "AST": "113 U/L",
+            "Bilirubin": "1.9 mg/dL",
+            "AFP": "404 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "MRI Brain",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Surgical resection every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 0.9 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX015": {
+      "id": "LCX015",
+      "demographics": {
+        "name": "Amber Jones",
+        "age": 80,
+        "gender": "Male",
+        "bloodType": "AB+",
+        "height": "189 cm",
+        "weight": "61 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Reading",
+        "activityLevel": "Active",
+        "sports": "Running",
+        "physicalRoutine": "Goes to gym 3x/week",
+        "workStyle": "Desk job"
+      },
+      "education": "High School",
+      "maritalStatus": "Divorced",
+      "smokingAlcohol": {
+        "smoking": "Smoker",
+        "alcohol": "Does not drink"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["None"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "109 U/L",
+            "AST": "63 U/L",
+            "Bilirubin": "1.3 mg/dL",
+            "AFP": "466 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "X-ray Chest",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Immunotherapy every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 0.9 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX016": {
+      "id": "LCX016",
+      "demographics": {
+        "name": "Mary Moore",
+        "age": 47,
+        "gender": "Female",
+        "bloodType": "A+",
+        "height": "170 cm",
+        "weight": "63 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Cooking",
+        "activityLevel": "Active",
+        "sports": "Running",
+        "physicalRoutine": "Walks 5km daily",
+        "workStyle": "Manual labour"
+      },
+      "education": "PhD",
+      "maritalStatus": "Married",
+      "smokingAlcohol": {
+        "smoking": "Former smoker",
+        "alcohol": "Does not drink"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Penicillin"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Hernia repair",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "92 U/L",
+            "AST": "95 U/L",
+            "Bilirubin": "1.4 mg/dL",
+            "AFP": "315 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "MRI Brain",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for TACE every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.8 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX017": {
+      "id": "LCX017",
+      "demographics": {
+        "name": "Sara Christian",
+        "age": 64,
+        "gender": "Male",
+        "bloodType": "AB-",
+        "height": "188 cm",
+        "weight": "57 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Cycling",
+        "activityLevel": "Sedentary",
+        "sports": "Gymnastics",
+        "physicalRoutine": "Goes to gym 3x/week",
+        "workStyle": "Manual labour"
+      },
+      "education": "High School",
+      "maritalStatus": "Single",
+      "smokingAlcohol": {
+        "smoking": "Former smoker",
+        "alcohol": "Does not drink"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Sulfa drugs"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "76 U/L",
+            "AST": "110 U/L",
+            "Bilirubin": "2.3 mg/dL",
+            "AFP": "592 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "PET scan",
+          "finding": "",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for TACE every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 0.8 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX018": {
+      "id": "LCX018",
+      "demographics": {
+        "name": "Anthony Williamson",
+        "age": 62,
+        "gender": "Male",
+        "bloodType": "B+",
+        "height": "185 cm",
+        "weight": "61 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Painting",
+        "activityLevel": "Sedentary",
+        "sports": "Amateur Football",
+        "physicalRoutine": "Goes to gym 3x/week",
+        "workStyle": "Remote"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Divorced",
+      "smokingAlcohol": {
+        "smoking": "Non-smoker",
+        "alcohol": "Does not drink"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Sulfa drugs"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Appendectomy",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "110 U/L",
+            "AST": "64 U/L",
+            "Bilirubin": "2.4 mg/dL",
+            "AFP": "392 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "MRI Brain",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Immunotherapy every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.0 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX019": {
+      "id": "LCX019",
+      "demographics": {
+        "name": "Kurt Henry",
+        "age": 77,
+        "gender": "Female",
+        "bloodType": "O+",
+        "height": "181 cm",
+        "weight": "89 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Cycling",
+        "activityLevel": "Sedentary",
+        "sports": "Amateur Football",
+        "physicalRoutine": "Walks 5km daily",
+        "workStyle": "Desk job"
+      },
+      "education": "Master's",
+      "maritalStatus": "Married",
+      "smokingAlcohol": {
+        "smoking": "Former smoker",
+        "alcohol": "Does not drink"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Aspirin"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Gallbladder removal",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "87 U/L",
+            "AST": "67 U/L",
+            "Bilirubin": "1.7 mg/dL",
+            "AFP": "545 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "X-ray Chest",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Immunotherapy every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.4 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    },
+    "LCX020": {
+      "id": "LCX020",
+      "demographics": {
+        "name": "Albert Smith",
+        "age": 61,
+        "gender": "Male",
+        "bloodType": "A+",
+        "height": "182 cm",
+        "weight": "82 kg"
+      },
+      "lifestyle": {
+        "hobbies": "Gardening",
+        "activityLevel": "Moderately Active",
+        "sports": "Gymnastics",
+        "physicalRoutine": "Mostly sedentary",
+        "workStyle": "Shift work"
+      },
+      "education": "Bachelor's",
+      "maritalStatus": "Divorced",
+      "smokingAlcohol": {
+        "smoking": "Non-smoker",
+        "alcohol": "Drinks socially"
+      },
+      "medicalHistory": [
+        {
+          "date": "2017-08-10",
+          "condition": "Diagnosed with Type 2 Diabetes and/or high cholesterol",
+          "usefulData": true
+        }
+      ],
+      "allergies": ["Penicillin"],
+      "surgicalHistory": [
+        {
+          "date": "2019-05-22",
+          "procedure": "Hernia repair",
+          "usefulData": true
+        }
+      ],
+      "labResults": [
+        {
+          "date": "2024-04-18",
+          "type": "Blood Work",
+          "results": {
+            "ALT": "75 U/L",
+            "AST": "85 U/L",
+            "Bilirubin": "2.0 mg/dL",
+            "AFP": "533 ng/mL"
+          },
+          "usefulData": true
+        }
+      ],
+      "imaging": [
+        {
+          "date": "2024-05-01",
+          "type": "X-ray Chest",
+          "finding": "Normal",
+          "usefulData": false
+        }
+      ],
+      "treatmentPlan": {
+        "date": "2024-06-01",
+        "treatment": "Scheduled for Surgical resection every 6 weeks",
+        "usefulData": true
+      },
+      "followUp": [
+        {
+          "date": "2024-07-10",
+          "note": "Tumor reduced by 1.5 cm",
+          "usefulData": true
+        }
+      ],
+      "otherRecords": [
+        {
+          "date": "2024-07-20",
+          "category": "Dental",
+          "detail": "Dental Checkup: Mild gingivitis",
+          "usefulData": false
+        },
+        {
+          "date": "2023-11-10",
+          "category": "Vision",
+          "detail": "Mild presbyopia",
+          "usefulData": false
+        },
+        {
+          "date": "2022-10-01",
+          "category": "Vaccination",
+          "detail": "Received flu and HepB vaccines",
+          "usefulData": false
+        },
+        {
+          "date": "2023-06-14",
+          "category": "Psych Eval",
+          "detail": "Mild anxiety, stable",
+          "usefulData": false
+        },
+        {
+          "date": "2023-02-22",
+          "category": "Dermatology",
+          "detail": "Routine skin check, benign mole",
+          "usefulData": false
+        }
+      ],
+      "familyHistory": "Father had liver cirrhosis, Mother had diabetes"
+    }
+  }
+}

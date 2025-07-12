@@ -1,60 +1,32 @@
-"use client"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ArrowLeft, Calendar, MapPin, FileText, Database, ImageIcon, Activity } from "lucide-react"
-import Link from "next/link"
-
-// Mock procedure data
-const procedureData = {
-  "proc-1": {
-    title: "Knee Arthroscopy",
-    date: "2023-08-15",
-    type: "Surgery",
-    status: "Completed",
-    bodyPart: "Left Knee",
-    outcome: "Successful",
-    surgeon: "Dr. Michael Chen",
-    summary:
-      "Minimally invasive arthroscopic surgery performed to repair torn medial meniscus. Patient presented with persistent knee pain and limited range of motion following sports injury.",
-    details: {
-      preOp: "Patient fasted for 12 hours. Pre-operative assessment showed good overall health.",
-      procedure:
-        "Arthroscopic meniscectomy performed under general anesthesia. Small incisions made for camera and instruments.",
-      postOp: "Patient recovered well from anesthesia. Prescribed pain medication and physical therapy.",
-      nextSteps: "Follow-up in 2 weeks. Physical therapy to begin in 1 week. Return to sports activities in 6-8 weeks.",
-    },
-    images: [
-      { type: "MRI", description: "Pre-operative MRI showing meniscal tear" },
-      { type: "Arthroscopic", description: "Intraoperative arthroscopic view" },
-      { type: "X-Ray", description: "Post-operative X-ray" },
-    ],
-    sources: [
-      { type: "Lab Results", date: "2023-08-10", description: "Pre-operative blood work - CBC, BMP, PT/PTT" },
-      { type: "Imaging", date: "2023-08-05", description: "MRI Left Knee - Medial meniscal tear confirmed" },
-      { type: "Consultation", date: "2023-07-28", description: "Orthopedic consultation notes" },
-      { type: "Operative Report", date: "2023-08-15", description: "Detailed surgical procedure documentation" },
-      { type: "Anesthesia Record", date: "2023-08-15", description: "Anesthesia administration and monitoring" },
-      { type: "Pathology", date: "2023-08-16", description: "Tissue analysis of removed meniscal fragments" },
-    ],
-  },
-}
-
-const patientData = {
-  "patient-1": { name: "John Smith", age: 45, conditions: ["Hypertension", "Type 2 Diabetes"] },
-}
+"use client";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+  ArrowLeft,
+  Calendar,
+  MapPin,
+  FileText,
+  Database,
+  ImageIcon,
+  Activity,
+} from "lucide-react";
+import Link from "next/link";
+import { patientData } from "@/data";
+import { procedureData } from "@/data";
 
 export default function ProcedurePage({
   params,
 }: {
-  params: { id: string; procedureId: string }
+  params: { id: string; procedureId: string };
 }) {
-  const procedure = procedureData[params.procedureId as keyof typeof procedureData]
-  const patient = patientData[params.id as keyof typeof patientData]
+  const procedure =
+    procedureData[params.procedureId as keyof typeof procedureData];
+  const patient = patientData[params.id as keyof typeof patientData];
 
   if (!procedure || !patient) {
-    return <div>Procedure not found</div>
+    return <div>Procedure not found</div>;
   }
 
   return (
@@ -69,7 +41,9 @@ export default function ProcedurePage({
             </Link>
           </Button>
           <div>
-            <h1 className="text-3xl font-bold text-slate-900">{procedure.title}</h1>
+            <h1 className="text-3xl font-bold text-slate-900">
+              {procedure.title}
+            </h1>
             <p className="text-slate-600">
               {patient.name} • Age {patient.age}
             </p>
@@ -133,13 +107,23 @@ export default function ProcedurePage({
             <CardContent className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="text-sm font-medium text-slate-600">Surgeon</label>
+                  <label className="text-sm font-medium text-slate-600">
+                    Surgeon
+                  </label>
                   <p className="text-lg">{procedure.surgeon}</p>
                 </div>
                 <div>
-                  <label className="text-sm font-medium text-slate-600">Status</label>
+                  <label className="text-sm font-medium text-slate-600">
+                    Status
+                  </label>
                   <div className="mt-1">
-                    <Badge variant={procedure.status === "Completed" ? "default" : "secondary"}>
+                    <Badge
+                      variant={
+                        procedure.status === "Completed"
+                          ? "default"
+                          : "secondary"
+                      }
+                    >
                       {procedure.status}
                     </Badge>
                   </div>
@@ -147,7 +131,9 @@ export default function ProcedurePage({
               </div>
 
               <div>
-                <label className="text-sm font-medium text-slate-600">Summary</label>
+                <label className="text-sm font-medium text-slate-600">
+                  Summary
+                </label>
                 <p className="text-slate-700 mt-1">{procedure.summary}</p>
               </div>
             </CardContent>
@@ -203,12 +189,17 @@ export default function ProcedurePage({
             <CardContent>
               <div className="grid md:grid-cols-3 gap-4">
                 {procedure.images.map((image, index) => (
-                  <div key={index} className="border border-slate-200 rounded-lg p-4 text-center">
+                  <div
+                    key={index}
+                    className="border border-slate-200 rounded-lg p-4 text-center"
+                  >
                     <div className="w-full h-32 bg-slate-100 rounded-lg mb-3 flex items-center justify-center">
                       <ImageIcon className="w-8 h-8 text-slate-400" />
                     </div>
                     <h4 className="font-medium text-slate-900">{image.type}</h4>
-                    <p className="text-sm text-slate-600 mt-1">{image.description}</p>
+                    <p className="text-sm text-slate-600 mt-1">
+                      {image.description}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -234,13 +225,23 @@ export default function ProcedurePage({
                     <div className="flex items-center space-x-3">
                       <FileText className="w-5 h-5 text-slate-500" />
                       <div>
-                        <h4 className="font-medium text-slate-900">{source.type}</h4>
-                        <p className="text-sm text-slate-600">{source.description}</p>
+                        <h4 className="font-medium text-slate-900">
+                          {source.type}
+                        </h4>
+                        <p className="text-sm text-slate-600">
+                          {source.description}
+                        </p>
                       </div>
                     </div>
                     <div className="text-right">
-                      <p className="text-sm text-slate-500">{new Date(source.date).toLocaleDateString()}</p>
-                      <Button variant="outline" size="sm" className="mt-1 bg-transparent">
+                      <p className="text-sm text-slate-500">
+                        {new Date(source.date).toLocaleDateString()}
+                      </p>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="mt-1 bg-transparent"
+                      >
                         View
                       </Button>
                     </div>
@@ -252,5 +253,5 @@ export default function ProcedurePage({
         </TabsContent>
       </Tabs>
     </div>
-  )
+  );
 }

@@ -1,0 +1,401 @@
+PatientID,Category,Date,Detail,UsefulData
+LCX001,Demographics,,"Name: Angela Griffin, Age: 46, Gender: Male, Blood Type: AB+, Height: 167 cm, Weight: 69 kg",Yes
+LCX001,Lifestyle,,"Hobbies: Reading, Lifestyle: Moderately Active, Sports: Running",Yes
+LCX001,Daily Routine,,Physical Routine: Walks 5km daily,Yes
+LCX001,Work Style,,Work Style: Desk job,No
+LCX001,Education,,Education Level: High School,No
+LCX001,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX001,Allergies,,Allergic to Sulfa drugs,Yes
+LCX001,Surgical History,2019-05-22,Appendectomy,Yes
+LCX001,Marital Status,,Marital Status: Married,No
+LCX001,Smoking/Alcohol,,"Smoking: Non-smoker, Alcohol: Drinks socially",Yes
+LCX001,Blood Work,2024-04-18,"ALT: 99 U/L, AST: 94 U/L, Bilirubin: 1.7 mg/dL, AFP: 479 ng/mL",Yes
+LCX001,Imaging,2024-05-01,CT: Liver lesion,Yes
+LCX001,Treatment Plan,2024-06-01,Scheduled for Radiofrequency ablation every 6 weeks,Yes
+LCX001,Follow-up,2024-07-10,Tumor reduced by 1.6 cm,Yes
+LCX001,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX001,Vision,2023-11-10,Mild presbyopia,No
+LCX001,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX001,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX001,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX001,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX002,Demographics,,"Name: Eric Cross, Age: 45, Gender: Female, Blood Type: B+, Height: 182 cm, Weight: 82 kg",Yes
+LCX002,Lifestyle,,"Hobbies: Cycling, Lifestyle: Active, Sports: Gymnastics",Yes
+LCX002,Daily Routine,,Physical Routine: Walks 5km daily,Yes
+LCX002,Work Style,,Work Style: Manual labour,No
+LCX002,Education,,Education Level: Bachelor's,No
+LCX002,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX002,Allergies,,Allergic to None,No
+LCX002,Surgical History,2019-05-22,Gallbladder removal,Yes
+LCX002,Marital Status,,Marital Status: Widowed,No
+LCX002,Smoking/Alcohol,,"Smoking: Smoker, Alcohol: Drinks socially",Yes
+LCX002,Blood Work,2024-04-18,"ALT: 89 U/L, AST: 67 U/L, Bilirubin: 2.4 mg/dL, AFP: 443 ng/mL",Yes
+LCX002,Imaging,2024-05-01,X-ray Chest: Normal,No
+LCX002,Treatment Plan,2024-06-01,Scheduled for TACE every 6 weeks,Yes
+LCX002,Follow-up,2024-07-10,Tumor reduced by 1.6 cm,Yes
+LCX002,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX002,Vision,2023-11-10,Mild presbyopia,No
+LCX002,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX002,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX002,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX002,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX003,Demographics,,"Name: Hector Cook, Age: 80, Gender: Male, Blood Type: AB+, Height: 186 cm, Weight: 95 kg",Yes
+LCX003,Lifestyle,,"Hobbies: Skiing, Lifestyle: Active, Sports: None",Yes
+LCX003,Daily Routine,,Physical Routine: Mostly sedentary,Yes
+LCX003,Work Style,,Work Style: Shift work,No
+LCX003,Education,,Education Level: Bachelor's,No
+LCX003,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX003,Allergies,,Allergic to Penicillin,Yes
+LCX003,Surgical History,2019-05-22,Appendectomy,Yes
+LCX003,Marital Status,,Marital Status: Single,No
+LCX003,Smoking/Alcohol,,"Smoking: Smoker, Alcohol: Frequent drinker",Yes
+LCX003,Blood Work,2024-04-18,"ALT: 95 U/L, AST: 113 U/L, Bilirubin: 1.6 mg/dL, AFP: 439 ng/mL",Yes
+LCX003,Imaging,2024-05-01,CT: Liver lesion,Yes
+LCX003,Treatment Plan,2024-06-01,Scheduled for Immunotherapy every 6 weeks,Yes
+LCX003,Follow-up,2024-07-10,Tumor reduced by 0.9 cm,Yes
+LCX003,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX003,Vision,2023-11-10,Mild presbyopia,No
+LCX003,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX003,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX003,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX003,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX004,Demographics,,"Name: Ashley Petty, Age: 58, Gender: Female, Blood Type: AB+, Height: 182 cm, Weight: 59 kg",Yes
+LCX004,Lifestyle,,"Hobbies: Skiing, Lifestyle: Moderately Active, Sports: Amateur Football",Yes
+LCX004,Daily Routine,,Physical Routine: Goes to gym 3x/week,Yes
+LCX004,Work Style,,Work Style: Manual labour,No
+LCX004,Education,,Education Level: Bachelor's,No
+LCX004,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX004,Allergies,,Allergic to None,No
+LCX004,Surgical History,2019-05-22,Appendectomy,Yes
+LCX004,Marital Status,,Marital Status: Divorced,No
+LCX004,Smoking/Alcohol,,"Smoking: Non-smoker, Alcohol: Does not drink",Yes
+LCX004,Blood Work,2024-04-18,"ALT: 80 U/L, AST: 77 U/L, Bilirubin: 1.3 mg/dL, AFP: 540 ng/mL",Yes
+LCX004,Imaging,2024-05-01,MRI Brain: Normal,No
+LCX004,Treatment Plan,2024-06-01,Scheduled for TACE every 6 weeks,Yes
+LCX004,Follow-up,2024-07-10,Tumor reduced by 1.7 cm,Yes
+LCX004,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX004,Vision,2023-11-10,Mild presbyopia,No
+LCX004,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX004,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX004,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX004,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX005,Demographics,,"Name: Bryan Meyers, Age: 58, Gender: Female, Blood Type: O-, Height: 172 cm, Weight: 84 kg",Yes
+LCX005,Lifestyle,,"Hobbies: Reading, Lifestyle: Active, Sports: Running",Yes
+LCX005,Daily Routine,,Physical Routine: Gardens every morning,Yes
+LCX005,Work Style,,Work Style: Manual labour,No
+LCX005,Education,,Education Level: Bachelor's,No
+LCX005,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX005,Allergies,,Allergic to None,No
+LCX005,Surgical History,2019-05-22,Appendectomy,Yes
+LCX005,Marital Status,,Marital Status: Widowed,No
+LCX005,Smoking/Alcohol,,"Smoking: Former smoker, Alcohol: Does not drink",Yes
+LCX005,Blood Work,2024-04-18,"ALT: 58 U/L, AST: 115 U/L, Bilirubin: 1.3 mg/dL, AFP: 571 ng/mL",Yes
+LCX005,Imaging,2024-05-01,MRI Brain: Normal,No
+LCX005,Treatment Plan,2024-06-01,Scheduled for Immunotherapy every 6 weeks,Yes
+LCX005,Follow-up,2024-07-10,Tumor reduced by 0.6 cm,Yes
+LCX005,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX005,Vision,2023-11-10,Mild presbyopia,No
+LCX005,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX005,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX005,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX005,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX006,Demographics,,"Name: Nicholas Rogers, Age: 72, Gender: Male, Blood Type: A-, Height: 172 cm, Weight: 79 kg",Yes
+LCX006,Lifestyle,,"Hobbies: Skiing, Lifestyle: Active, Sports: Running",Yes
+LCX006,Daily Routine,,Physical Routine: Mostly sedentary,Yes
+LCX006,Work Style,,Work Style: Shift work,No
+LCX006,Education,,Education Level: Master's,No
+LCX006,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX006,Allergies,,Allergic to None,No
+LCX006,Surgical History,2019-05-22,Appendectomy,Yes
+LCX006,Marital Status,,Marital Status: Married,No
+LCX006,Smoking/Alcohol,,"Smoking: Smoker, Alcohol: Frequent drinker",Yes
+LCX006,Blood Work,2024-04-18,"ALT: 55 U/L, AST: 106 U/L, Bilirubin: 2.3 mg/dL, AFP: 384 ng/mL",Yes
+LCX006,Imaging,2024-05-01,X-ray Chest: Normal,No
+LCX006,Treatment Plan,2024-06-01,Scheduled for Immunotherapy every 6 weeks,Yes
+LCX006,Follow-up,2024-07-10,Tumor reduced by 0.7 cm,Yes
+LCX006,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX006,Vision,2023-11-10,Mild presbyopia,No
+LCX006,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX006,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX006,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX006,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX007,Demographics,,"Name: Mrs. Sarah Hancock, Age: 77, Gender: Male, Blood Type: A-, Height: 187 cm, Weight: 95 kg",Yes
+LCX007,Lifestyle,,"Hobbies: Cycling, Lifestyle: Moderately Active, Sports: Amateur Football",Yes
+LCX007,Daily Routine,,Physical Routine: Mostly sedentary,Yes
+LCX007,Work Style,,Work Style: Shift work,No
+LCX007,Education,,Education Level: Bachelor's,No
+LCX007,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX007,Allergies,,Allergic to Aspirin,Yes
+LCX007,Surgical History,2019-05-22,Appendectomy,Yes
+LCX007,Marital Status,,Marital Status: Married,No
+LCX007,Smoking/Alcohol,,"Smoking: Non-smoker, Alcohol: Drinks socially",Yes
+LCX007,Blood Work,2024-04-18,"ALT: 108 U/L, AST: 111 U/L, Bilirubin: 1.6 mg/dL, AFP: 279 ng/mL",Yes
+LCX007,Imaging,2024-05-01,CT: Liver lesion,Yes
+LCX007,Treatment Plan,2024-06-01,Scheduled for Surgical resection every 6 weeks,Yes
+LCX007,Follow-up,2024-07-10,Tumor reduced by 1.8 cm,Yes
+LCX007,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX007,Vision,2023-11-10,Mild presbyopia,No
+LCX007,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX007,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX007,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX007,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX008,Demographics,,"Name: Sharon Fowler, Age: 50, Gender: Male, Blood Type: A-, Height: 183 cm, Weight: 86 kg",Yes
+LCX008,Lifestyle,,"Hobbies: Gardening, Lifestyle: Moderately Active, Sports: Swimming",Yes
+LCX008,Daily Routine,,Physical Routine: Gardens every morning,Yes
+LCX008,Work Style,,Work Style: Manual labour,No
+LCX008,Education,,Education Level: Bachelor's,No
+LCX008,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX008,Allergies,,Allergic to Sulfa drugs,Yes
+LCX008,Surgical History,2019-05-22,Hernia repair,Yes
+LCX008,Marital Status,,Marital Status: Divorced,No
+LCX008,Smoking/Alcohol,,"Smoking: Former smoker, Alcohol: Drinks socially",Yes
+LCX008,Blood Work,2024-04-18,"ALT: 97 U/L, AST: 101 U/L, Bilirubin: 1.6 mg/dL, AFP: 514 ng/mL",Yes
+LCX008,Imaging,2024-05-01,MRI Brain: Normal,No
+LCX008,Treatment Plan,2024-06-01,Scheduled for Surgical resection every 6 weeks,Yes
+LCX008,Follow-up,2024-07-10,Tumor reduced by 1.1 cm,Yes
+LCX008,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX008,Vision,2023-11-10,Mild presbyopia,No
+LCX008,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX008,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX008,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX008,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX009,Demographics,,"Name: Lee Shaw, Age: 52, Gender: Female, Blood Type: B-, Height: 167 cm, Weight: 59 kg",Yes
+LCX009,Lifestyle,,"Hobbies: Cycling, Lifestyle: Sedentary, Sports: Running",Yes
+LCX009,Daily Routine,,Physical Routine: Walks 5km daily,Yes
+LCX009,Work Style,,Work Style: Shift work,No
+LCX009,Education,,Education Level: Bachelor's,No
+LCX009,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX009,Allergies,,Allergic to Sulfa drugs,Yes
+LCX009,Surgical History,2019-05-22,Appendectomy,Yes
+LCX009,Marital Status,,Marital Status: Married,No
+LCX009,Smoking/Alcohol,,"Smoking: Smoker, Alcohol: Drinks socially",Yes
+LCX009,Blood Work,2024-04-18,"ALT: 70 U/L, AST: 77 U/L, Bilirubin: 2.0 mg/dL, AFP: 359 ng/mL",Yes
+LCX009,Imaging,2024-05-01,CT: Liver lesion,Yes
+LCX009,Treatment Plan,2024-06-01,Scheduled for Surgical resection every 6 weeks,Yes
+LCX009,Follow-up,2024-07-10,Tumor reduced by 0.6 cm,Yes
+LCX009,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX009,Vision,2023-11-10,Mild presbyopia,No
+LCX009,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX009,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX009,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX009,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX010,Demographics,,"Name: Glenn Schaefer, Age: 75, Gender: Male, Blood Type: B-, Height: 185 cm, Weight: 85 kg",Yes
+LCX010,Lifestyle,,"Hobbies: Painting, Lifestyle: Sedentary, Sports: Swimming",Yes
+LCX010,Daily Routine,,Physical Routine: Gardens every morning,Yes
+LCX010,Work Style,,Work Style: Desk job,No
+LCX010,Education,,Education Level: High School,No
+LCX010,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX010,Allergies,,Allergic to Penicillin,Yes
+LCX010,Surgical History,2019-05-22,Hernia repair,Yes
+LCX010,Marital Status,,Marital Status: Widowed,No
+LCX010,Smoking/Alcohol,,"Smoking: Non-smoker, Alcohol: Does not drink",Yes
+LCX010,Blood Work,2024-04-18,"ALT: 76 U/L, AST: 111 U/L, Bilirubin: 2.2 mg/dL, AFP: 377 ng/mL",Yes
+LCX010,Imaging,2024-05-01,CT: Liver lesion,Yes
+LCX010,Treatment Plan,2024-06-01,Scheduled for TACE every 6 weeks,Yes
+LCX010,Follow-up,2024-07-10,Tumor reduced by 1.1 cm,Yes
+LCX010,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX010,Vision,2023-11-10,Mild presbyopia,No
+LCX010,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX010,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX010,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX010,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX011,Demographics,,"Name: Linda Mccarthy, Age: 57, Gender: Male, Blood Type: O-, Height: 164 cm, Weight: 82 kg",Yes
+LCX011,Lifestyle,,"Hobbies: Reading, Lifestyle: Active, Sports: None",Yes
+LCX011,Daily Routine,,Physical Routine: Walks 5km daily,Yes
+LCX011,Work Style,,Work Style: Remote,No
+LCX011,Education,,Education Level: Bachelor's,No
+LCX011,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX011,Allergies,,Allergic to Penicillin,Yes
+LCX011,Surgical History,2019-05-22,Appendectomy,Yes
+LCX011,Marital Status,,Marital Status: Married,No
+LCX011,Smoking/Alcohol,,"Smoking: Non-smoker, Alcohol: Frequent drinker",Yes
+LCX011,Blood Work,2024-04-18,"ALT: 85 U/L, AST: 73 U/L, Bilirubin: 2.2 mg/dL, AFP: 280 ng/mL",Yes
+LCX011,Imaging,2024-05-01,MRI Brain: Normal,No
+LCX011,Treatment Plan,2024-06-01,Scheduled for Radiofrequency ablation every 6 weeks,Yes
+LCX011,Follow-up,2024-07-10,Tumor reduced by 1.1 cm,Yes
+LCX011,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX011,Vision,2023-11-10,Mild presbyopia,No
+LCX011,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX011,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX011,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX011,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX012,Demographics,,"Name: Jennifer Morse MD, Age: 69, Gender: Male, Blood Type: A+, Height: 172 cm, Weight: 71 kg",Yes
+LCX012,Lifestyle,,"Hobbies: Painting, Lifestyle: Active, Sports: Amateur Football",Yes
+LCX012,Daily Routine,,Physical Routine: Walks 5km daily,Yes
+LCX012,Work Style,,Work Style: Remote,No
+LCX012,Education,,Education Level: PhD,No
+LCX012,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX012,Allergies,,Allergic to Penicillin,Yes
+LCX012,Surgical History,2019-05-22,Hernia repair,Yes
+LCX012,Marital Status,,Marital Status: Single,No
+LCX012,Smoking/Alcohol,,"Smoking: Smoker, Alcohol: Does not drink",Yes
+LCX012,Blood Work,2024-04-18,"ALT: 85 U/L, AST: 92 U/L, Bilirubin: 2.3 mg/dL, AFP: 521 ng/mL",Yes
+LCX012,Imaging,2024-05-01,X-ray Chest: Normal,No
+LCX012,Treatment Plan,2024-06-01,Scheduled for TACE every 6 weeks,Yes
+LCX012,Follow-up,2024-07-10,Tumor reduced by 0.6 cm,Yes
+LCX012,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX012,Vision,2023-11-10,Mild presbyopia,No
+LCX012,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX012,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX012,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX012,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX013,Demographics,,"Name: Karen Forbes, Age: 48, Gender: Male, Blood Type: A-, Height: 187 cm, Weight: 66 kg",Yes
+LCX013,Lifestyle,,"Hobbies: Gardening, Lifestyle: Moderately Active, Sports: Swimming",Yes
+LCX013,Daily Routine,,Physical Routine: Walks 5km daily,Yes
+LCX013,Work Style,,Work Style: Desk job,No
+LCX013,Education,,Education Level: Bachelor's,No
+LCX013,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX013,Allergies,,Allergic to Penicillin,Yes
+LCX013,Surgical History,2019-05-22,Gallbladder removal,Yes
+LCX013,Marital Status,,Marital Status: Single,No
+LCX013,Smoking/Alcohol,,"Smoking: Smoker, Alcohol: Frequent drinker",Yes
+LCX013,Blood Work,2024-04-18,"ALT: 100 U/L, AST: 80 U/L, Bilirubin: 1.5 mg/dL, AFP: 452 ng/mL",Yes
+LCX013,Imaging,2024-05-01,X-ray Chest: Normal,No
+LCX013,Treatment Plan,2024-06-01,Scheduled for Surgical resection every 6 weeks,Yes
+LCX013,Follow-up,2024-07-10,Tumor reduced by 0.8 cm,Yes
+LCX013,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX013,Vision,2023-11-10,Mild presbyopia,No
+LCX013,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX013,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX013,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX013,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX014,Demographics,,"Name: Duane Lee, Age: 64, Gender: Male, Blood Type: O-, Height: 170 cm, Weight: 59 kg",Yes
+LCX014,Lifestyle,,"Hobbies: Gardening, Lifestyle: Active, Sports: None",Yes
+LCX014,Daily Routine,,Physical Routine: Goes to gym 3x/week,Yes
+LCX014,Work Style,,Work Style: Shift work,No
+LCX014,Education,,Education Level: High School,No
+LCX014,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX014,Allergies,,Allergic to None,No
+LCX014,Surgical History,2019-05-22,Appendectomy,Yes
+LCX014,Marital Status,,Marital Status: Divorced,No
+LCX014,Smoking/Alcohol,,"Smoking: Former smoker, Alcohol: Drinks socially",Yes
+LCX014,Blood Work,2024-04-18,"ALT: 83 U/L, AST: 113 U/L, Bilirubin: 1.9 mg/dL, AFP: 404 ng/mL",Yes
+LCX014,Imaging,2024-05-01,MRI Brain: Normal,No
+LCX014,Treatment Plan,2024-06-01,Scheduled for Surgical resection every 6 weeks,Yes
+LCX014,Follow-up,2024-07-10,Tumor reduced by 0.9 cm,Yes
+LCX014,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX014,Vision,2023-11-10,Mild presbyopia,No
+LCX014,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX014,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX014,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX014,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX015,Demographics,,"Name: Amber Jones, Age: 80, Gender: Male, Blood Type: AB+, Height: 189 cm, Weight: 61 kg",Yes
+LCX015,Lifestyle,,"Hobbies: Reading, Lifestyle: Active, Sports: Running",Yes
+LCX015,Daily Routine,,Physical Routine: Goes to gym 3x/week,Yes
+LCX015,Work Style,,Work Style: Desk job,No
+LCX015,Education,,Education Level: High School,No
+LCX015,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX015,Allergies,,Allergic to None,No
+LCX015,Surgical History,2019-05-22,Appendectomy,Yes
+LCX015,Marital Status,,Marital Status: Divorced,No
+LCX015,Smoking/Alcohol,,"Smoking: Smoker, Alcohol: Does not drink",Yes
+LCX015,Blood Work,2024-04-18,"ALT: 109 U/L, AST: 63 U/L, Bilirubin: 1.3 mg/dL, AFP: 466 ng/mL",Yes
+LCX015,Imaging,2024-05-01,X-ray Chest: Normal,No
+LCX015,Treatment Plan,2024-06-01,Scheduled for Immunotherapy every 6 weeks,Yes
+LCX015,Follow-up,2024-07-10,Tumor reduced by 0.9 cm,Yes
+LCX015,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX015,Vision,2023-11-10,Mild presbyopia,No
+LCX015,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX015,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX015,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX015,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX016,Demographics,,"Name: Mary Moore, Age: 47, Gender: Female, Blood Type: A+, Height: 170 cm, Weight: 63 kg",Yes
+LCX016,Lifestyle,,"Hobbies: Cooking, Lifestyle: Active, Sports: Running",Yes
+LCX016,Daily Routine,,Physical Routine: Walks 5km daily,Yes
+LCX016,Work Style,,Work Style: Manual labour,No
+LCX016,Education,,Education Level: PhD,No
+LCX016,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX016,Allergies,,Allergic to Penicillin,Yes
+LCX016,Surgical History,2019-05-22,Hernia repair,Yes
+LCX016,Marital Status,,Marital Status: Married,No
+LCX016,Smoking/Alcohol,,"Smoking: Former smoker, Alcohol: Does not drink",Yes
+LCX016,Blood Work,2024-04-18,"ALT: 92 U/L, AST: 95 U/L, Bilirubin: 1.4 mg/dL, AFP: 315 ng/mL",Yes
+LCX016,Imaging,2024-05-01,MRI Brain: Normal,No
+LCX016,Treatment Plan,2024-06-01,Scheduled for TACE every 6 weeks,Yes
+LCX016,Follow-up,2024-07-10,Tumor reduced by 1.8 cm,Yes
+LCX016,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX016,Vision,2023-11-10,Mild presbyopia,No
+LCX016,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX016,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX016,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX016,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX017,Demographics,,"Name: Sara Christian, Age: 64, Gender: Male, Blood Type: AB-, Height: 188 cm, Weight: 57 kg",Yes
+LCX017,Lifestyle,,"Hobbies: Cycling, Lifestyle: Sedentary, Sports: Gymnastics",Yes
+LCX017,Daily Routine,,Physical Routine: Goes to gym 3x/week,Yes
+LCX017,Work Style,,Work Style: Manual labour,No
+LCX017,Education,,Education Level: High School,No
+LCX017,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX017,Allergies,,Allergic to Sulfa drugs,Yes
+LCX017,Surgical History,2019-05-22,Appendectomy,Yes
+LCX017,Marital Status,,Marital Status: Single,No
+LCX017,Smoking/Alcohol,,"Smoking: Former smoker, Alcohol: Does not drink",Yes
+LCX017,Blood Work,2024-04-18,"ALT: 76 U/L, AST: 110 U/L, Bilirubin: 2.3 mg/dL, AFP: 592 ng/mL",Yes
+LCX017,Imaging,2024-05-01,PET scan,No
+LCX017,Treatment Plan,2024-06-01,Scheduled for TACE every 6 weeks,Yes
+LCX017,Follow-up,2024-07-10,Tumor reduced by 0.8 cm,Yes
+LCX017,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX017,Vision,2023-11-10,Mild presbyopia,No
+LCX017,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX017,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX017,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX017,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX018,Demographics,,"Name: Anthony Williamson, Age: 62, Gender: Male, Blood Type: B+, Height: 185 cm, Weight: 61 kg",Yes
+LCX018,Lifestyle,,"Hobbies: Painting, Lifestyle: Sedentary, Sports: Amateur Football",Yes
+LCX018,Daily Routine,,Physical Routine: Goes to gym 3x/week,Yes
+LCX018,Work Style,,Work Style: Remote,No
+LCX018,Education,,Education Level: Bachelor's,No
+LCX018,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX018,Allergies,,Allergic to Sulfa drugs,Yes
+LCX018,Surgical History,2019-05-22,Appendectomy,Yes
+LCX018,Marital Status,,Marital Status: Divorced,No
+LCX018,Smoking/Alcohol,,"Smoking: Non-smoker, Alcohol: Does not drink",Yes
+LCX018,Blood Work,2024-04-18,"ALT: 110 U/L, AST: 64 U/L, Bilirubin: 2.4 mg/dL, AFP: 392 ng/mL",Yes
+LCX018,Imaging,2024-05-01,MRI Brain: Normal,No
+LCX018,Treatment Plan,2024-06-01,Scheduled for Immunotherapy every 6 weeks,Yes
+LCX018,Follow-up,2024-07-10,Tumor reduced by 1.0 cm,Yes
+LCX018,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX018,Vision,2023-11-10,Mild presbyopia,No
+LCX018,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX018,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX018,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX018,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX019,Demographics,,"Name: Kurt Henry, Age: 77, Gender: Female, Blood Type: O+, Height: 181 cm, Weight: 89 kg",Yes
+LCX019,Lifestyle,,"Hobbies: Cycling, Lifestyle: Sedentary, Sports: Amateur Football",Yes
+LCX019,Daily Routine,,Physical Routine: Walks 5km daily,Yes
+LCX019,Work Style,,Work Style: Desk job,No
+LCX019,Education,,Education Level: Master's,No
+LCX019,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX019,Allergies,,Allergic to Aspirin,Yes
+LCX019,Surgical History,2019-05-22,Gallbladder removal,Yes
+LCX019,Marital Status,,Marital Status: Married,No
+LCX019,Smoking/Alcohol,,"Smoking: Former smoker, Alcohol: Does not drink",Yes
+LCX019,Blood Work,2024-04-18,"ALT: 87 U/L, AST: 67 U/L, Bilirubin: 1.7 mg/dL, AFP: 545 ng/mL",Yes
+LCX019,Imaging,2024-05-01,X-ray Chest: Normal,No
+LCX019,Treatment Plan,2024-06-01,Scheduled for Immunotherapy every 6 weeks,Yes
+LCX019,Follow-up,2024-07-10,Tumor reduced by 1.4 cm,Yes
+LCX019,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX019,Vision,2023-11-10,Mild presbyopia,No
+LCX019,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX019,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX019,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX019,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
+LCX020,Demographics,,"Name: Albert Smith, Age: 61, Gender: Male, Blood Type: A+, Height: 182 cm, Weight: 82 kg",Yes
+LCX020,Lifestyle,,"Hobbies: Gardening, Lifestyle: Moderately Active, Sports: Gymnastics",Yes
+LCX020,Daily Routine,,Physical Routine: Mostly sedentary,Yes
+LCX020,Work Style,,Work Style: Shift work,No
+LCX020,Education,,Education Level: Bachelor's,No
+LCX020,Medical History,2017-08-10,Diagnosed with Type 2 Diabetes and/or high cholesterol,Yes
+LCX020,Allergies,,Allergic to Penicillin,Yes
+LCX020,Surgical History,2019-05-22,Hernia repair,Yes
+LCX020,Marital Status,,Marital Status: Divorced,No
+LCX020,Smoking/Alcohol,,"Smoking: Non-smoker, Alcohol: Drinks socially",Yes
+LCX020,Blood Work,2024-04-18,"ALT: 75 U/L, AST: 85 U/L, Bilirubin: 2.0 mg/dL, AFP: 533 ng/mL",Yes
+LCX020,Imaging,2024-05-01,X-ray Chest: Normal,No
+LCX020,Treatment Plan,2024-06-01,Scheduled for Surgical resection every 6 weeks,Yes
+LCX020,Follow-up,2024-07-10,Tumor reduced by 1.5 cm,Yes
+LCX020,Dental,2024-07-20,Dental Checkup: Mild gingivitis,No
+LCX020,Vision,2023-11-10,Mild presbyopia,No
+LCX020,Vaccination,2022-10-01,Received flu and HepB vaccines,No
+LCX020,Psych Eval,2023-06-14,"Mild anxiety, stable",No
+LCX020,Dermatology,2023-02-22,"Routine skin check, benign mole",No
+LCX020,Family History,,"Father had liver cirrhosis, Mother had diabetes",Yes
