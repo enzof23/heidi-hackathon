@@ -6,23 +6,24 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
   Calendar,
-  MapPin,
   AlertTriangle,
   FileText,
   Activity,
   Heart,
-  Droplets,
   TrendingDown,
   Cigarette,
   Wine,
   TestTube,
-  User,
+  Sparkles,
 } from "lucide-react";
 import Link from "next/link";
 import patientDataJson from "@/data/data.json";
 import { Body3D } from "@/components/body-3d";
 
 export default function PatientPage({ params }: { params: { id: string } }) {
+  const [showAISummary, setShowAISummary] = useState(false);
+  const [isGenerating, setIsGenerating] = useState(false);
+  
   const patientJson = patientDataJson.patients[params.id as keyof typeof patientDataJson.patients];
 
   if (!patientJson) {
@@ -43,14 +44,14 @@ export default function PatientPage({ params }: { params: { id: string } }) {
   const latestLabResults = patientJson.labResults[patientJson.labResults.length - 1];
   const latestFollowUp = patientJson.followUp[patientJson.followUp.length - 1];
   
-  function getAFPStatus(afpLevel: string): { label: string; variant: "default" | "destructive" | "secondary" } {
+  function getAFPStatus(afpLevel: string): { label: string; variant: "default" | "destructive" | "secondary"; isHigh: boolean } {
     const level = parseInt(afpLevel);
     if (level > 400) {
-      return { label: "High Risk", variant: "destructive" };
+      return { label: "High Risk", variant: "destructive", isHigh: true };
     } else if (level > 200) {
-      return { label: "Elevated", variant: "default" };
+      return { label: "Elevated", variant: "default", isHigh: true };
     }
-    return { label: "Normal", variant: "secondary" };
+    return { label: "Normal", variant: "secondary", isHigh: false };
   }
 
   function getLiverFunctionStatus(alt: string, ast: string): { label: string; variant: "default" | "destructive" | "secondary" } {
@@ -174,6 +175,81 @@ export default function PatientPage({ params }: { params: { id: string } }) {
             </CardContent>
           </Card>
 
+          {/* AI Summary Button */}
+          <Card className="glass-card">
+            <CardContent className="py-6">
+              <div className="text-center">
+                <Button 
+                  onClick={() => {
+                    setIsGenerating(true);
+                    setTimeout(() => {
+                      setIsGenerating(false);
+                      setShowAISummary(true);
+                    }, 1500);
+                  }}
+                  className="w-full glass-card hover:glass-card-hover"
+                  disabled={isGenerating}
+                >
+                  <Sparkles className="w-4 h-4 mr-2" />
+                  {isGenerating ? "Generating AI Summary..." : "Generate AI Profile Summary"}
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* AI Summary Card */}
+          {showAISummary && (
+            <Card className="glass-card border-blue-200">
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-2">
+                  <Sparkles className="w-5 h-5 text-blue-600" />
+                  <span>AI Profile Summary</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4 text-sm text-slate-700">
+                  <div>
+                    <p className="font-semibold text-slate-900">Patient Overview:</p>
+                    <p className="mt-1">{patientJson.demographics.name} is a {patientJson.demographics.age}-year-old {patientJson.demographics.gender.toLowerCase()} patient with liver cancer currently undergoing {patientJson.treatmentPlan.treatment.toLowerCase()}.</p>
+                  </div>
+                  
+                  <div>
+                    <p className="font-semibold text-slate-900">Key Clinical Findings:</p>
+                    <ul className="mt-1 ml-4 space-y-1 list-disc">
+                      <li>AFP level: {latestLabResults?.results.AFP} ({getAFPStatus(latestLabResults?.results.AFP || "0").label})</li>
+                      <li>Liver function: ALT {latestLabResults?.results.ALT}, AST {latestLabResults?.results.AST}</li>
+                      <li>Treatment response: {latestFollowUp?.note}</li>
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <p className="font-semibold text-slate-900">Risk Factors:</p>
+                    <ul className="mt-1 ml-4 space-y-1 list-disc">
+                      <li>Smoking status: {patientJson.smokingAlcohol.smoking}</li>
+                      <li>Alcohol consumption: {patientJson.smokingAlcohol.alcohol}</li>
+                      <li>Family history: {patientJson.familyHistory}</li>
+                    </ul>
+                  </div>
+                  
+                  {patientJson.allergies[0] !== "None" && (
+                    <div className="p-3 bg-red-50 border border-red-200 rounded-lg">
+                      <p className="font-semibold text-red-900 flex items-center gap-2">
+                        <AlertTriangle className="w-4 h-4" />
+                        Critical Allergies:
+                      </p>
+                      <p className="text-red-700 mt-1">{patientJson.allergies.join(", ")}</p>
+                    </div>
+                  )}
+                  
+                  <div>
+                    <p className="font-semibold text-slate-900">Recommendation:</p>
+                    <p className="mt-1">Continue current treatment protocol with close monitoring of AFP levels and liver function. {getAFPStatus(latestLabResults?.results.AFP || "0").isHigh ? "Consider treatment adjustment due to elevated tumor markers." : "Current treatment showing positive response."}</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
           {/* Latest Lab Results */}
           <Card>
             <CardHeader>
@@ -255,10 +331,17 @@ export default function PatientPage({ params }: { params: { id: string } }) {
           {/* Medical Events History */}
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center space-x-2">
-                <Activity className="w-5 h-5" />
-                <span>Medical Events</span>
-              </CardTitle>
+              <div className="flex items-center justify-between">
+                <CardTitle className="flex items-center space-x-2">
+                  <Activity className="w-5 h-5" />
+                  <span>Medical Events</span>
+                </CardTitle>
+                <Link href={`/patients/${params.id}/procedures/treatment`}>
+                  <Button variant="outline" size="sm">
+                    View Details
+                  </Button>
+                </Link>
+              </div>
             </CardHeader>
             <CardContent className="space-y-3">
               {/* Surgical History */}
